@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(135deg, skyblue, purple, darkblue);
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 110%;
+    background-color: skyblue;
+
+    /* Light blue background by default */
+    color: pink;
+    z-index: 1000;
+
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#navbar ul li {
+    display: inline;
+}
+
+#navbar ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s ease;
+
+}
+
+#navbar ul li a:hover {
+    color: #4CAF50;
+    /* Hover effect */
+}
+
+.scrolled {
+    background-color: purple !important;
+    /* Darker blue when scrolled */
+}
